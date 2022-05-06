@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url('https://fonts.googleapis.com/css?family=Lato%3A400%2C300italic%2C300%2C100italic%2C100%2C400italic%2C700%2C700italic%2C900italic%2C900%7CMontserrat%3A400%2C700');
+@import url("https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@0ac23ca/css/all.css");
+/*@import url("fontawesome/css/all.min.css");*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+/*@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.ccs);*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("bootstrap.min_v3.4.1.css");
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+html,body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+.a {
+  text-decoration: none;
+}
+.footer-site {
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  background-color: #2f2f2f;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+.wrapper-footer {
+  width: 1024px;
+  margin: 0 auto;
+}
+.wrapper-footer span {
+  color: #d2d2d2;
+  line-height: 33px;
+  font-size: 13px;
+  font-family: 'Raleway';
+}
+  .text-notification-1 {
+    position: absolute;
+    right: 10%;
+    color: red;
+    font-weight: bold;
+  }
+  .text-notification-2 {
+    color: red;
+    font-weight: bold;
+  }
+  .img-tv-first {
+  width: 24%;
+  padding-top: 2%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-bottom: 2%;
+  border: 0px solid transparent;
+  border-radius: 10%;
+}
+.img-tv {
+  width: 24%;
+  padding-top: 2%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-bottom: 2%;
+  border: 0px solid transparent;
+  border-radius: 10%;
+}
+.body-tv {
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+.img-live {
+  width: 32%;
+}
+.img-vod {
+  width: 23%;
+  border: 0px solid transparent;
+  border-radius: 0%;
+  padding: 0% 0% 0% 0%;
+}
+.img-vod-first {
+  width: 23%;
+  border: 0px solid transparent;
+  border-radius: 0%;
+  padding: 0% 0% 0% 0%;
+}
+.text-vod {
+  color: #fff;
+  font-family: raleway;
+  font-size: 10;
+}
+.text-name {
+  color: #fff;
+  font-weight: 900;
+  font-family: Raleway;
+  font-size: 15px;
+  background-color: transparent;
+
+}
+.text-name-site {
+  width: 100%;
+  height: 5%;
+  background-color: #2f2f2f;
+  opacity: 0.6;
+
+}
+.body-use-account {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+.body-contact {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+.body-privacy-policy {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+.body-vod {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+.body-trangchu {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+.body-tructiep {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+ .body-tv{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+ }
+
+.hr {
+  width: 100%;
+  size: 1%;
+  align: center;
+  color: #fff;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+a.icon-menu {
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 0;
+}
+a.icon-search {
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 0;
+}
+a.icon-notification-1 {
+  color: red;
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
+.active {
+  
+}
+.img-logo {
+  width: 90px;
+}
+.img-logo-footer{
+  width: 90px;
+}
+.footer-menu {
+  color: #fff;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  font-family: raleway;
+  color: #fff;
+  padding: 1px 0px;
+  margin: 0 0;
+  border: 1px solid #fff;
+  background-color: transparent;
+  box-sizing: border-box; 
+}
